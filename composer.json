@@ -1,0 +1,22 @@
+{
+    "name": "epokmedia/msgpackrpc",
+    "description": "Port of PEAR MessagePack RPC Client to PHP 5.3+",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "EPOKMEDIA",
+            "email": "info@epokmedia.fr"
+        }
+    ],
+    "keywords": ["rpc", "msgpack", "messagepack"],
+    "licence": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Epkm\\MessagePackRpc": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.15",
+        "zendframework/zend-serializer": ">=2.1.5"
+    }
+}
